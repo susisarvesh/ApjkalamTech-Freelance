@@ -13,7 +13,6 @@ function Homepage() {
           <Section></Section>
           <Services></Services>
           <Footer></Footer>
-
     </div>
   )
 }

@@ -7,8 +7,8 @@ import Services from "../Components/Services/Services"
 
 function Homepage() {
   return (
-      <div>
-          <Navbar></Navbar>
+      <div className="">
+          <Navbar ></Navbar>
           <Hero></Hero>
           <Section></Section>
           <Services></Services>

@@ -2,7 +2,7 @@
 
 function Section() {
   return (
-    <div>Section</div>
+    <div>Secion</div>
   )
 }
 

@@ -1,0 +1,13 @@
+body{
+        background: #FFFFFF;
+        background: linear-gradient(180deg, #FFFFFF, #FC922F);
+        background-repeat: no-repeat;
+        height: 100%;
+  
+}
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}

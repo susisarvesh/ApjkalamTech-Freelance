@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@keyframes scroll {
+    0% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(-300%);
+    }
+}
+@keyframes scrollmedium {
+    0% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(-300%);
+    }
+}
+
+@keyframes scroll-reverse {
+    0% {
+        transform: translateY(-700%);
+    }
+
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+.animate-scroll {
+    animation: scroll 40s ease-in infinite;
+}
+
+.animate-scroll-reverse {
+    animation: scroll-reverse 80s ease-in infinite;
+}
+.animate-scrollmed{
+    animation:scrollmedium 20s ease-in 1;
+}

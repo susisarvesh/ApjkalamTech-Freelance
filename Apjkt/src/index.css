@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 @keyframes scroll {
     0% {
         transform: translateY(0%);
@@ -40,6 +38,25 @@
 .animate-scroll-reverse {
     animation: scroll-reverse 80s ease-in infinite;
 }
-.animate-scrollmed{
-    animation:scrollmedium 20s ease-in 1;
+
+.opacity-top::before,
+.opacity-bottom::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 3.5rem;
+    /* h-10 */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(0, 0, 0, 0));
+    z-index: 10;
+}
+
+.opacity-top::before {
+    top: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(0, 0, 0, 0));
+}
+
+.opacity-bottom::after {
+    bottom: 0;
+    background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(0, 0, 0, 0));
 }

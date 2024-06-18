@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <>
+        <div className="">
             <div className="flex flex-col gap-10 p-5 pb-[100px]">
                 <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-7">
                     <div className="flex flex-row justify-center lg:justify-start">
@@ -49,7 +49,7 @@ const Footer = () => {
                     <p>Copyright &copy; 2024 Apjkt Pvt.Ltd.</p>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
 

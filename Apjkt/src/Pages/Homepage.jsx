@@ -1,14 +1,14 @@
 import Footer from "../Components/Footer/Footer"
 import Hero from "../Components/Hero/Hero"
-import Navbar from "../Components/Navbar/Navbar"
+
 import Section from "../Components/Section/Section"
 import Services from "../Components/Services/Services"
 
 
 function Homepage() {
   return (
-      <div className="">
-          <Navbar ></Navbar>
+      <div className="mainpage">
+
           <Hero></Hero>
           <Section></Section>
           <Services></Services>

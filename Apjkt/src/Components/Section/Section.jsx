@@ -17,7 +17,7 @@ function Section() {
           <img
             src="https://ik.imagekit.io/zhf0gkzac/DeWatermark.ai_1717408547209.png?updatedAt=1718434496704"
             alt="CNC Machining"
-            className="rounded-lg w-[70%] md:w-3/4 lg:w-2/3 h-auto shadow-lg "
+            className="rounded-lg w-[70%] md:w-3/4 lg:w-2/4 h-auto shadow-lg "
           />
         </div>
       </div>

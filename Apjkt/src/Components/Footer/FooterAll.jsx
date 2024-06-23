@@ -1,7 +1,9 @@
+import { Link } from 'react-router-dom';
+
 const FooterAll = () => {
   return (
-    <div className="">
-      <div className="flex flex-col gap-10 p-5 pb-[100px]">
+    <footer className="bg-white mb-[60px]">
+      <div className="flex flex-col gap-6 p-5">
         <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-7">
           <div className="flex flex-row justify-center lg:justify-start">
             <img
@@ -10,38 +12,38 @@ const FooterAll = () => {
               className="w-28"
             />
           </div>
-          <div className="flex justify-center ">
+          <div className="flex justify-center">
             <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 text-base">
               <div>
-                <a href="#" className="hover:text-black text-black flex justify-center">
+                <Link to="/company" className="hover:text-black text-black flex justify-center">
                   About
-                </a>
+                </Link>
               </div>
               <div>
-                <a href="#" className="hover:text-black text-black flex justify-center">
+                <Link to="/solutions/?productId=1" className="hover:text-black text-black flex justify-center">
                   Solutions
-                </a>
+                </Link>
               </div>
               <div>
-                <a href="#" className="hover:text-black text-black flex justify-center">
+                <Link to="/contact" className="hover:text-black text-black flex justify-center">
                   Reach Us
-                </a>
+                </Link>
               </div>
               <div>
-                <a href="#" className="hover:text-black text-black flex justify-center">
-                  Help
-                </a>
+                <Link to="/products/?productId=1" className="hover:text-black text-black flex justify-center">
+                  Products
+                </Link>
               </div>
-              <div>
-                <a href="#" className="hover:text-black text-black flex justify-center">
+              {/* <div>
+                <Link to="/privacy" className="hover:text-black text-black flex justify-center">
                   Privacy
-                </a>
-              </div>
+                </Link>
+              </div> */}
             </div>
           </div>
           <div className="flex flex-row gap-4 justify-center lg:justify-end text-black text-base">
             <div>
-              <a href="#" aria-label="Facebook">
+              <Link to="#" aria-label="Facebook">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -56,10 +58,10 @@ const FooterAll = () => {
                 >
                   <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
                 </svg>
-              </a>
+              </Link>
             </div>
             <div>
-              <a href="#" aria-label="LinkedIn">
+              <Link to="#" aria-label="LinkedIn">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -76,10 +78,10 @@ const FooterAll = () => {
                   <rect width="4" height="12" x="2" y="9" />
                   <circle cx="4" cy="4" r="2" />
                 </svg>
-              </a>
+              </Link>
             </div>
             <div>
-              <a href="#" aria-label="Twitter">
+              <Link to="#" aria-label="Twitter">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -94,7 +96,7 @@ const FooterAll = () => {
                 >
                   <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -105,7 +107,7 @@ const FooterAll = () => {
           <p>Copyright &copy; 2024 Apjkt Pvt.Ltd.</p>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

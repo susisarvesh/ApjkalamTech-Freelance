@@ -85,7 +85,7 @@ function Navbar() {
               <div className="hidden lg:flex gap-8 items-center">
                 <Link to="/" className="">Home</Link>
                 <Link to="/company">Company</Link>
-                <Link to="/services">Products</Link>
+                <Link to="/products">Products</Link>
                 <Link to="/catalog">Catalog</Link>
                 <div className="relative">
                   <button
@@ -166,7 +166,7 @@ function Navbar() {
               <Link to="/company" onClick={handleLinkClick}>
                 Company
               </Link>
-              <Link to="/services" onClick={handleLinkClick}>
+              <Link to="/products" onClick={handleLinkClick}>
                 Products
               </Link>
              <Link to="/solutions" onClick={handleLinkClick}>Services</Link>

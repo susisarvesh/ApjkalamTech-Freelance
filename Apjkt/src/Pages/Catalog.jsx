@@ -1,7 +1,22 @@
 import FooterAll from "../Components/Footer/FooterAll"
-
+import { useState, useEffect } from "react";
+import Preloader from "./Preloader";
 
 function Catalog() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate a network request
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000); // Adjust the timeout as needed
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Preloader />;
+  }
     return (
         <div className="">
 

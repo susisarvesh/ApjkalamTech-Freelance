@@ -3,7 +3,7 @@
 ```markdown
 # Apj Kalam Tech
 
-Apj Kalam Tech is a project that integrates email functionality using EmailJS and React Js , Tailwind CSS it is a complete responsive website that gives a modern design. It serves as a platform for CNC router machine distribution and aerospace parts manufacturing company.
+Welcome to my project! 🚀 I've integrated email functionality using EmailJS, React JS, and Tailwind CSS to develop a complete responsive website with a modern design. The project serves as a platform for CNC router machine distribution and aerospace parts manufacturing.
 
 ## Technologies Used
 
@@ -16,7 +16,7 @@ Apj Kalam Tech is a project that integrates email functionality using EmailJS an
 ## Installation
 
 To get started with Apj Kalam Tech, follow these steps:
-
+  ```
 1. **Clone the repository:**
 
    ```bash

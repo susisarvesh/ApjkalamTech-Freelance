@@ -37,10 +37,7 @@ To get started with Apj Kalam Tech, follow these steps:
    ```
 
    This command starts the Vite development server. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-## Usage
-
-Apj Kalam Tech facilitates email communications using EmailJS for the CNC router machine distribution and aerospace parts manufacturing company. Provide any specific instructions on how to use the email functionality or other relevant information about your project.
+   
 
 ## Contributing
 

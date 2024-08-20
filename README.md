@@ -38,13 +38,3 @@ To get started with Apj Kalam Tech, follow these steps:
 
    This command starts the Vite development server. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
    
-
-## Contributing
-
-If you'd like to contribute to Apj Kalam Tech, follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/my-feature`).
-3. Commit your changes (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin feature/my-feature`).
-5. Create a new Pull Request.
